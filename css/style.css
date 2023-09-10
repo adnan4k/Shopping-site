@@ -1,0 +1,353 @@
+/* Reset some default styles */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+}
+
+/* Nike header styles */
+.nike-header {
+    background-color: white;
+    padding: 10px 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    color: white;
+}
+
+.logo img {
+    max-height: 40px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-right: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+/* Existing CSS for the search bar */
+.search-bar input {
+    padding: 10px; 
+    width: 180px;
+    border: none;
+    border-radius: 20px;
+    margin-right: 110px;
+    font-size: 16px; 
+    background-color: #f4f4f4;
+}
+.first-navigation{
+    background-color: #f4f4f4;
+}
+.jordan{
+    max-height: 30px;
+    padding-top: 0px;
+    padding-right: 18px;
+    padding-bottom: 0px;
+    padding-left: 36px;
+}
+.right-content{
+float:right;
+justify-content: space-between;
+}
+.discount{
+    background-color: #f4f4f4;
+    text-align: center;
+    margin-top: 7px;
+}
+.header-all {
+    text-align: center;
+    padding: 20px; 
+}
+.header{
+font-weight: bolder;
+font-size: 45px;
+}
+.buttons{
+    padding: 6px 20px;
+    border-radius: 30px;
+    border: 1.5px solid transparent;
+    justify-content: center;
+    margin-top: 15px;
+    
+    align-items: center;
+    background: #111;
+    color: #fff;
+}
+.all-moves{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+#first-image{
+    width: 1054px;
+    height: 500px;
+}
+
+.image-gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 3px;
+    margin-left: 10px;
+}
+
+.image-gallery img {
+    width: 250px; 
+    height: 250px; 
+    margin: 10px;
+   
+}
+.trending{
+    display: flex;
+    justify-content: center;
+}
+
+.movers{
+    text-align: center;
+}
+.trending img{
+    width: 351px;
+    height: 300px;
+    background-color: #fff;
+    border:black;
+    padding: 3px;
+}
+.trending-heading{
+    margin-left:27px;
+    font-weight: 500;
+    font-size: 24px;
+}
+.text{
+    position: relative;
+   margin-left:3px;
+   margin-top: 15px;
+   line-height:0.1;
+   font-size: 16px;
+
+}
+.price{
+    position: absolute;
+    top: 1490px;
+    right: 30px;
+}
+.price1{
+    position: absolute;
+    top: 1490px;
+    right: 395px;
+}
+.price2{
+    position: absolute;
+    top: 1490px;
+    right: 750px;
+}
+.men{
+    margin: -3px;
+    padding: -3px;
+     color: #757575;;
+}
+.member{
+    margin: -3px;
+    padding: -3px;
+    color: #757575;;
+}
+.sportship {
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 20px;
+
+  
+
+}
+.sportship img{
+    width: 351px;
+    height: 300px;
+}
+
+.sport-heading{
+    margin-left: 30px;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    color: #111;
+}
+.img .women{
+    margin-top:-100px;
+}
+.sport{
+    position: relative;
+}
+.sport .img {
+    position: relative;
+}
+
+.women {
+    position: absolute;
+    top: 250px;
+    left: 10px;
+    
+    color:black;
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: normal;
+    font-size: 14px;
+    
+}
+.shop{
+    background-color:white;
+    margin: 1px;
+    color:black;
+    padding: 5px 10px;
+    border-radius: 30px;
+    text-align: center;
+    font-weight: normal;
+    font-size: 14px;
+}
+.gender{
+    background-color:white;
+    margin: 1px;
+    color:black;
+    padding: 5px 10px;
+    border-radius: 30px;;
+    text-align: center;
+    font-weight: normal;
+    font-size: 14px;
+}
+
+.women span{
+
+}
+.shop-by-sport{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 25px;
+    margin-right: 15px;
+
+}
+.shop-by-sport img{
+    width: 200px;
+   
+}
+.shoping-heading{
+    margin-left: 50px;
+    margin-top: 50px;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+}
+.discover{
+    display: flex;
+    margin-left: 25px;
+}
+.discover img{
+    width: 540px;
+    padding: 5px;
+}
+.discover-heading{
+    margin-top:50px;
+    margin-left: 25px;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+}
+.membership{
+    display: flex;
+    
+}
+.membership img{
+    width: 215px;
+padding: 5px;
+}
+.membership-heading{
+    margin: 25px;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+}
+.product .heading{
+    
+        color: #111;
+        cursor: pointer;
+        text-decoration: none;
+        font-weight: 500;
+        text-align: center;
+        cursor: pointer;
+        margin-top: 13px;
+    
+}
+
+.list{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 50px;
+    font-weight:100;
+}
+
+.list li{
+list-style: none;
+}
+.list a:hover{
+    cursor: pointer;
+}
+.list a {
+    font-weight: 500;
+   color: #757575;
+   line-height: 2.5;
+}
+
+
+footer {
+    margin-top: 50px;
+    padding: 20px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: #111;
+     color: white;
+}
+.social-icons a i {
+    font-size: 24px;
+    margin-right: 10px;
+}
+ .gift-cards ul li{
+    margin-left: 20px; 
+    list-style: none;
+}
+.join-us{
+    margin-right: 250px;
+}
+.social-icons{
+    
+    margin-left: 15px;
+}
+footer p{
+    font-size: 12px;
+    color: #7e7e7e;
+    line-height: 2.333333333333333;
+    
+}
+footer p:hover {
+    cursor: pointer;
+}
