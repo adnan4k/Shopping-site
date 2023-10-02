@@ -1,16 +1,15 @@
-/* Reset some default styles */
+
 body, h1, h2, h3, p, ul, li {
     margin: 0;
     padding: 0;
 }
 
-/* Global styles */
 body {
     font-family: Arial, sans-serif;
     background-color: white;
 }
 
-/* Nike header styles */
+
 .nike-header {
     background-color: white;
     padding: 10px 0;
@@ -45,13 +44,14 @@ body {
     font-weight: bold;
 }
 
-/* Existing CSS for the search bar */
+
 .search-bar input {
     padding: 10px; 
     width: 180px;
     border: none;
     border-radius: 20px;
     margin-right: 110px;
+    margin-top: 5px;
     font-size: 16px; 
     background-color: #f4f4f4;
 }
